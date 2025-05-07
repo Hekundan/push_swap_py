@@ -295,7 +295,7 @@ class stacks:
 #
 if __name__ == "__main__":
 
-    input_data = random.sample(range(1000), 500)  # distinct integers from 0..99
+    input_data =  [6, 2, 8, 7, 1, 4, 3, 0, 9, 5]
     s = stacks(input_data)
     s.sort_large()
     print (len(s.moves))
